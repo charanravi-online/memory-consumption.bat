@@ -55,3 +55,5 @@ This script was created for demonstration purposes and inspired by the need to s
 ## Disclaimer
 
 Please use this script responsibly and at your own risk. The author and contributors are not responsible for any misuse or damages caused by running this script.
+
+Also note that this hasn't been tested and this code may or may not work.
