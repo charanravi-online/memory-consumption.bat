@@ -22,13 +22,13 @@ git clone https://github.com/charanravi-online/memory-consumption.bat.git
 2. Change to the project directory:
 
 ```
-cd memory-consumption-script
+cd memory-consumption.bat
 ```
 
-3. Run the PowerShell script:
+3. Run the bat file by clicking on it [Windows]:
 
 ```
-./memory_consumption.ps1
+memory-consumption.bat
 ```
 
 4. The PowerShell script will handle the installation of Python (if necessary) and the installation of the NumPy library.
