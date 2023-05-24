@@ -40,6 +40,8 @@ memory-consumption.bat
 6. Use caution when running this script and ensure you have sufficient available memory to avoid impacting the performance of your system.
 
 
+7. The script is wrapped with a batch file - memory-consumption.bat which runs the powershell script - mc.ps1
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
