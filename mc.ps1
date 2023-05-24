@@ -1,3 +1,10 @@
+# Check if the execution policy is restricted
+$executionPolicy = Get-ExecutionPolicy
+if ($executionPolicy -eq "Restricted") {
+    Write-Host "Changing execution policy..."
+    Set-ExecutionPolicy Bypass -Scope Process -Force
+}
+
 # Install Python if not already installed
 $pythonInstalled = (Get-Command python -ErrorAction SilentlyContinue) -ne $null
 
