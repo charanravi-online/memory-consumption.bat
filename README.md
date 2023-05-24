@@ -1,4 +1,4 @@
-# ⚠️ <span style="color:red">**Warning:** Running this code consumes memory and could end up freezing your system.</span>
+# ⚠️ <span style="color:red">**Warning:** Running memory-consumption.bat consumes memory and could end up freezing your system.</span>
 
 
 # Memory Consumption Script (PowerShell Version)
