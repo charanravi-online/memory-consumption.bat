@@ -1,1 +1,46 @@
-# memory-consumption.ps1
+# Memory Consumption Script (PowerShell Version)
+
+This PowerShell script installs Python (if necessary) and executes a Python script designed to consume a large amount of memory on a computer by creating a large array. It can be used for testing purposes or to simulate memory-intensive scenarios. Please exercise caution when running this script as it may impact the performance of your system.
+
+## Requirements
+
+- PowerShell (5.1 or above)
+- Python (3.6 or above)
+- NumPy library
+
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/your-username/memory-consumption-script.git
+
+
+2. Change to the project directory:
+
+cd memory-consumption-script
+
+
+3. Run the PowerShell script:
+./memory_consumption.ps1
+
+
+4. The PowerShell script will handle the installation of Python (if necessary) and the installation of the NumPy library.
+
+
+5. After the installations are completed, the Python script will be executed, which allocates a large amount of memory and continues to hold it until manually interrupted.
+
+
+6. Use caution when running this script and ensure you have sufficient available memory to avoid impacting the performance of your system.
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+This script was created for demonstration purposes and inspired by the need to simulate memory-intensive scenarios. Thanks to the contributors of the NumPy library for providing a powerful tool for array manipulation.
+
+## Disclaimer
+
+Please use this script responsibly and at your own risk. The author and contributors are not responsible for any misuse or damages caused by running this script.
