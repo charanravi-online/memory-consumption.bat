@@ -16,7 +16,7 @@ This PowerShell script installs Python (if necessary) and executes a Python scri
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/memory-consumption-script.git
+git clone https://github.com/charanravi-online/memory-consumption.bat.git
 ```
 
 2. Change to the project directory:
