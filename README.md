@@ -37,10 +37,10 @@ memory-consumption.bat
 5. After the installations are completed, the Python script will be executed, which allocates a large amount of memory and continues to hold it until manually interrupted.
 
 
-6. Use caution when running this script and ensure you have sufficient available memory to avoid impacting the performance of your system.
+6. Use caution when running this script and ensure you have sufficient available memory to avoid impacting the performance of your system. 
 
 
-7. The script is wrapped with a batch file - memory-consumption.bat which runs the powershell script - mc.ps1
+7. The script is wrapped with a batch file ``` memory-consumption.bat ``` which runs the powershell script ``` mc.ps1 ```
 
 
 
