@@ -12,17 +12,21 @@ This PowerShell script installs Python (if necessary) and executes a Python scri
 
 1. Clone the repository:
 
+```
 git clone https://github.com/your-username/memory-consumption-script.git
-
+```
 
 2. Change to the project directory:
 
+```
 cd memory-consumption-script
-
+```
 
 3. Run the PowerShell script:
-./memory_consumption.ps1
 
+```
+./memory_consumption.ps1
+```
 
 4. The PowerShell script will handle the installation of Python (if necessary) and the installation of the NumPy library.
 
