@@ -1,7 +1,7 @@
 # ⚠️ <span style="color:red">**Warning:** Running this consumes memory and could end up freezing your system.</span>
 
 
-# Memory Consumption Script (PowerShell Version)
+# Memory Consumption Script (batch file for Windows)
 
 This PowerShell script installs Python (if necessary) and executes a Python script designed to consume a large amount of memory on a computer by creating a large array. It can be used for testing purposes or to simulate memory-intensive scenarios. Please exercise caution when running this script as it may impact the performance of your system.
 
