@@ -15,11 +15,21 @@ if (-not $pythonInstalled) {
     # Download Python installer
     Invoke-WebRequest -Uri $pythonInstallerUrl -OutFile $pythonInstallerPath
 
-    # Install Python
-    Start-Process -Wait -FilePath $pythonInstallerPath -ArgumentList "/quiet", "PrependPath=1"
+    # Install Python and set PATH variable
+    $installArguments = "/quiet", "PrependPath=1"
+    Start-Process -Wait -FilePath $pythonInstallerPath -ArgumentList $installArguments
 
     # Remove Python installer
     Remove-Item -Path $pythonInstallerPath
+}
+
+# Set PATH variable if Python is installed but not in PATH
+if (-not ($pythonInstalled -or (Get-Command python -ErrorAction SilentlyContinue) -ne $null)) {
+    $pythonPath = (Get-Command python).Source
+    $currentPath = [Environment]::GetEnvironmentVariable("PATH", [EnvironmentVariableTarget]::Machine)
+    $newPath = "$pythonPath;$currentPath"
+    [Environment]::SetEnvironmentVariable("PATH", $newPath, [EnvironmentVariableTarget]::Machine)
+    Write-Host "Python added to PATH."
 }
 
 # Install NumPy
