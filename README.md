@@ -1,4 +1,4 @@
-# ⚠️ <span style="color:red">**Warning:** Running this consumes memory and could end up freezing your system.</span>
+<!-- # ⚠️ <span style="color:red">**Warning:** Running this consumes memory and could end up freezing your system.</span>
 
 
 # Memory Consumption Script (batch file for Windows)
@@ -57,3 +57,4 @@ This script was created for demonstration purposes and inspired by the need to s
 Please use this script responsibly and at your own risk. The author and contributors are not responsible for any misuse or damages caused by running this script.
 
 Also note that this hasn't been tested and this code may or may not work.
+ -->
